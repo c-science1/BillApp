@@ -1,0 +1,100 @@
+h2{
+	font-size: 125%;
+}
+
+h3{
+	font-size: 120%;
+}
+
+.right-border{
+	border-right: 0;
+
+}
+
+#billSummary{
+	margin: 20px 0 20px 0;
+}
+
+#billSummary h2{
+	margin-top:  10px;
+}
+
+#sectionThreeDetails .toggle-section-details{
+	display: block;
+}
+.bill-date-details div:nth-child(2), .bill-date-details div:nth-child(3){
+	text-align: left;
+	@media (min-width: 768px){
+		text-align: center;
+	}
+}
+
+.toggle-section{
+	padding:  5px 20px 2px 20px;
+	/* background-color: #dff0d8; */
+	background-color: #f5f5f5;
+	
+}
+.toggle-section:hover{
+	cursor: pointer;
+}
+.toggle-section-details{
+	padding:  5px 20px 10px 20px;
+	display: none;
+}
+
+.bg-grey{
+	background-color: #ddd;
+}
+
+.grid{
+	display: table;
+}
+
+.grid-row{
+	display: table-row;
+}
+.grid-column{
+	display:  table-cell;
+}
+
+table th, table td{
+	text-align: center;
+}
+
+table th:first-child, table td:first-child{
+	text-align:  left;
+}
+
+table th:last-child, table td:last-child{
+	text-align:  right;
+}
+#tblSubscriptions th, #tblSubscriptions td, #tblCalls th, #tblCalls td{
+	width:  33%;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+
+.bill-summary{
+	margin-bottom: 2px;
+}
+
+@media (min-width: 400px){
+	h2{
+		font-size: 170%;
+	}
+	h3{
+		font-size: 150%;
+	}
+
+	.right-border{
+	border-right: 1px solid lightgrey;
+	}
+	
+	.bill-date-details div:nth-child(2), .bill-date-details div:nth-child(3){
+		text-align: center;
+	}
+}
+	
+}
